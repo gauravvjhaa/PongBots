@@ -1,4 +1,4 @@
-# Neural Network Architecture Comparison for Pong AI
+# AI PROJECT - SEM VI
 
 ## Overview
 This project compares three neural network architectures (SimpleFF, DeepFF, and LSTM) for controlling a paddle in the classic game of Pong, evaluating their performance through direct competition.
