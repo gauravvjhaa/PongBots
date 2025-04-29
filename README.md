@@ -6,7 +6,7 @@ This project compares three neural network architectures (SimpleFF, DeepFF, and 
 ## Contents
 - [Project_Report.pdf](./Project_Report.pdf): Complete documentation (problem statement, methodology, findings)
 - [requirements.txt](./requirements.txt): Python dependencies
-- [scripts/](./scripts/): Implementation scripts for environment setup, data generation, training, competition, and visualization
+- [scripts/](./scripts/): Implementation scripts for environment setup, data generation, training, competition, and visualization (For replicating the work, follow instructions [here](./scripts/instructions.md))
 - [models/](./models/): Saved neural network models
 - [competition/](./competition/): Competition results, analyses, and visualizations
 - [visualization/](./visualization/): Interactive visualization of model behavior
