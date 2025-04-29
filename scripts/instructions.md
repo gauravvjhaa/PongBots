@@ -14,5 +14,5 @@
 
 7) Run `create_pong_viz.py` to generate the HTML file, then open that HTML file with your browser.
 
-Date: 2025-04-29 15:23:06
+
 For queries, contact: gauravkumarjha306@cic.du.ac.in
