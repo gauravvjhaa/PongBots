@@ -1,0 +1,4 @@
+matchup,model1,model2,model1_wins,model2_wins,draws,model1_win_rate,model2_win_rate,model1_avg_hit_rate,model2_avg_hit_rate,model1_points,model2_points,avg_steps_per_match
+SimpleFF vs DeepFF,SimpleFF,DeepFF,0,19,1,0.0,0.95,0.54187242002064,0.8770238095238095,3,52,594.7
+SimpleFF vs LSTM,SimpleFF,LSTM,5,15,0,0.25,0.75,0.38116716616716617,0.5283333333333333,19,49,369.6
+DeepFF vs LSTM,DeepFF,LSTM,3,17,0,0.15,0.85,0.22621031746031747,0.45395833333333335,24,56,380.0

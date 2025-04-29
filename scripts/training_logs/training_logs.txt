@@ -1,0 +1,1332 @@
+Loading preprocessed data...
+/usr/local/lib/python3.11/dist-packages/keras/src/layers/core/dense.py:87: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+
+Training SimpleFF model...
+Epoch 1/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 8s 2ms/step - hit_rate: 0.0234 - loss: 26660.6152 - val_hit_rate: 0.1491 - val_loss: 834.3033
+Epoch 1: hit_rate = 0.1491
+New best hit rate: 0.1491, saving model to models/simpleff_model.keras
+Epoch 2/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.2791 - loss: 961.2490 - val_hit_rate: 0.5568 - val_loss: 332.3759
+Epoch 2: hit_rate = 0.5568
+New best hit rate: 0.5568, saving model to models/simpleff_model.keras
+Epoch 3/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3212 - loss: 733.5901 - val_hit_rate: 0.5584 - val_loss: 282.5928
+Epoch 3: hit_rate = 0.5584
+New best hit rate: 0.5584, saving model to models/simpleff_model.keras
+Epoch 4/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3289 - loss: 677.2171 - val_hit_rate: 0.5969 - val_loss: 239.5353
+Epoch 4: hit_rate = 0.5969
+New best hit rate: 0.5969, saving model to models/simpleff_model.keras
+Epoch 5/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3375 - loss: 641.3503 - val_hit_rate: 0.6014 - val_loss: 229.2104
+Epoch 5: hit_rate = 0.6014
+New best hit rate: 0.6014, saving model to models/simpleff_model.keras
+Epoch 6/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3401 - loss: 618.4342 - val_hit_rate: 0.5922 - val_loss: 221.1556
+Epoch 6: hit_rate = 0.5923
+Epoch 7/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3460 - loss: 599.5668 - val_hit_rate: 0.5774 - val_loss: 217.5856
+Epoch 7: hit_rate = 0.5774
+Epoch 8/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3484 - loss: 586.4673 - val_hit_rate: 0.5833 - val_loss: 217.3420
+Epoch 8: hit_rate = 0.5833
+Epoch 9/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3496 - loss: 573.1586 - val_hit_rate: 0.6024 - val_loss: 204.9932
+Epoch 9: hit_rate = 0.6024
+New best hit rate: 0.6024, saving model to models/simpleff_model.keras
+Epoch 10/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3514 - loss: 561.4473 - val_hit_rate: 0.6161 - val_loss: 203.9859
+Epoch 10: hit_rate = 0.6161
+New best hit rate: 0.6161, saving model to models/simpleff_model.keras
+Epoch 11/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3530 - loss: 547.2725 - val_hit_rate: 0.6521 - val_loss: 203.8999
+Epoch 11: hit_rate = 0.6521
+New best hit rate: 0.6521, saving model to models/simpleff_model.keras
+Epoch 12/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3570 - loss: 534.4037 - val_hit_rate: 0.6399 - val_loss: 211.3659
+Epoch 12: hit_rate = 0.6399
+Epoch 13/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3572 - loss: 526.7125 - val_hit_rate: 0.6532 - val_loss: 198.5842
+Epoch 13: hit_rate = 0.6532
+New best hit rate: 0.6532, saving model to models/simpleff_model.keras
+Epoch 14/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3599 - loss: 519.1949 - val_hit_rate: 0.6518 - val_loss: 195.3199
+Epoch 14: hit_rate = 0.6518
+Epoch 15/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3617 - loss: 513.2497 - val_hit_rate: 0.6529 - val_loss: 187.0118
+Epoch 15: hit_rate = 0.6529
+Epoch 16/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3629 - loss: 505.7267 - val_hit_rate: 0.6322 - val_loss: 191.0541
+Epoch 16: hit_rate = 0.6322
+Epoch 17/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3651 - loss: 501.0486 - val_hit_rate: 0.6232 - val_loss: 220.8280
+Epoch 17: hit_rate = 0.6232
+Epoch 18/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3637 - loss: 494.9341 - val_hit_rate: 0.6489 - val_loss: 208.5926
+Epoch 18: hit_rate = 0.6489
+Epoch 19/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3640 - loss: 490.7534 - val_hit_rate: 0.5821 - val_loss: 260.2934
+Epoch 19: hit_rate = 0.5821
+Epoch 20/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3642 - loss: 489.6372 - val_hit_rate: 0.6397 - val_loss: 261.2930
+Epoch 20: hit_rate = 0.6397
+Epoch 21/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3674 - loss: 486.4903 - val_hit_rate: 0.5776 - val_loss: 260.5678
+Epoch 21: hit_rate = 0.5776
+Epoch 22/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3670 - loss: 484.0498 - val_hit_rate: 0.6469 - val_loss: 242.3097
+Epoch 22: hit_rate = 0.6469
+Epoch 23/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3680 - loss: 479.2614 - val_hit_rate: 0.6059 - val_loss: 225.0917
+Epoch 23: hit_rate = 0.6059
+Epoch 24/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3688 - loss: 476.8973 - val_hit_rate: 0.6408 - val_loss: 226.2478
+Epoch 24: hit_rate = 0.6408
+Epoch 25/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3690 - loss: 476.5469 - val_hit_rate: 0.6383 - val_loss: 242.2593
+Epoch 25: hit_rate = 0.6383
+Epoch 26/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3710 - loss: 473.6121 - val_hit_rate: 0.6378 - val_loss: 238.0262
+Epoch 26: hit_rate = 0.6378
+Epoch 27/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3692 - loss: 470.9335 - val_hit_rate: 0.6575 - val_loss: 223.9575
+Epoch 27: hit_rate = 0.6575
+New best hit rate: 0.6575, saving model to models/simpleff_model.keras
+Epoch 28/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3679 - loss: 471.0603 - val_hit_rate: 0.6678 - val_loss: 211.5320
+Epoch 28: hit_rate = 0.6677
+New best hit rate: 0.6677, saving model to models/simpleff_model.keras
+Epoch 29/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3707 - loss: 469.0404 - val_hit_rate: 0.6707 - val_loss: 220.9431
+Epoch 29: hit_rate = 0.6707
+New best hit rate: 0.6707, saving model to models/simpleff_model.keras
+Epoch 30/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3693 - loss: 469.6047 - val_hit_rate: 0.7047 - val_loss: 189.5735
+Epoch 30: hit_rate = 0.7047
+New best hit rate: 0.7047, saving model to models/simpleff_model.keras
+Epoch 31/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3717 - loss: 467.4635 - val_hit_rate: 0.6805 - val_loss: 199.2099
+Epoch 31: hit_rate = 0.6805
+Epoch 32/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3730 - loss: 465.4622 - val_hit_rate: 0.6516 - val_loss: 197.0012
+Epoch 32: hit_rate = 0.6516
+Epoch 33/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3717 - loss: 464.8638 - val_hit_rate: 0.6953 - val_loss: 175.6233
+Epoch 33: hit_rate = 0.6953
+Epoch 34/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3728 - loss: 463.2649 - val_hit_rate: 0.6829 - val_loss: 191.2704
+Epoch 34: hit_rate = 0.6829
+Epoch 35/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3724 - loss: 461.7583 - val_hit_rate: 0.6814 - val_loss: 180.6846
+Epoch 35: hit_rate = 0.6814
+Epoch 36/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3741 - loss: 461.8836 - val_hit_rate: 0.7048 - val_loss: 174.0177
+Epoch 36: hit_rate = 0.7047
+New best hit rate: 0.7047, saving model to models/simpleff_model.keras
+Epoch 37/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3720 - loss: 461.3580 - val_hit_rate: 0.7011 - val_loss: 170.3893
+Epoch 37: hit_rate = 0.7011
+Epoch 38/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3725 - loss: 459.1093 - val_hit_rate: 0.6890 - val_loss: 168.3181
+Epoch 38: hit_rate = 0.6890
+Epoch 39/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3718 - loss: 459.4236 - val_hit_rate: 0.7368 - val_loss: 154.5144
+Epoch 39: hit_rate = 0.7368
+New best hit rate: 0.7368, saving model to models/simpleff_model.keras
+Epoch 40/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3730 - loss: 455.9106 - val_hit_rate: 0.7406 - val_loss: 167.3086
+Epoch 40: hit_rate = 0.7406
+New best hit rate: 0.7406, saving model to models/simpleff_model.keras
+Epoch 41/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3741 - loss: 456.6411 - val_hit_rate: 0.7571 - val_loss: 147.1915
+Epoch 41: hit_rate = 0.7571
+New best hit rate: 0.7571, saving model to models/simpleff_model.keras
+Epoch 42/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3741 - loss: 456.1433 - val_hit_rate: 0.7459 - val_loss: 141.7012
+Epoch 42: hit_rate = 0.7459
+Epoch 43/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3743 - loss: 454.5466 - val_hit_rate: 0.7509 - val_loss: 156.2351
+Epoch 43: hit_rate = 0.7509
+Epoch 44/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3732 - loss: 452.8986 - val_hit_rate: 0.7364 - val_loss: 152.7004
+Epoch 44: hit_rate = 0.7364
+Epoch 45/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3752 - loss: 452.5260 - val_hit_rate: 0.7563 - val_loss: 146.7461
+Epoch 45: hit_rate = 0.7562
+Epoch 46/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3738 - loss: 450.8979 - val_hit_rate: 0.7444 - val_loss: 138.5248
+Epoch 46: hit_rate = 0.7444
+Epoch 47/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3744 - loss: 449.8101 - val_hit_rate: 0.7371 - val_loss: 147.8817
+Epoch 47: hit_rate = 0.7371
+Epoch 48/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3758 - loss: 451.5312 - val_hit_rate: 0.7310 - val_loss: 150.5187
+Epoch 48: hit_rate = 0.7310
+Epoch 49/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3736 - loss: 450.3682 - val_hit_rate: 0.7514 - val_loss: 145.3047
+Epoch 49: hit_rate = 0.7514
+Epoch 50/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3749 - loss: 450.2523 - val_hit_rate: 0.7511 - val_loss: 137.2996
+Epoch 50: hit_rate = 0.7511
+Epoch 51/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3758 - loss: 448.0514 - val_hit_rate: 0.7455 - val_loss: 144.8491
+Epoch 51: hit_rate = 0.7455
+Epoch 52/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3752 - loss: 447.7496 - val_hit_rate: 0.7487 - val_loss: 137.7334
+Epoch 52: hit_rate = 0.7488
+Epoch 53/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3754 - loss: 448.8937 - val_hit_rate: 0.7720 - val_loss: 142.5644
+Epoch 53: hit_rate = 0.7720
+New best hit rate: 0.7720, saving model to models/simpleff_model.keras
+Epoch 54/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3737 - loss: 447.3237 - val_hit_rate: 0.7527 - val_loss: 153.3208
+Epoch 54: hit_rate = 0.7527
+Epoch 55/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3748 - loss: 445.8126 - val_hit_rate: 0.7539 - val_loss: 144.5883
+Epoch 55: hit_rate = 0.7539
+Epoch 56/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 5s 2ms/step - hit_rate: 0.3750 - loss: 446.4121 - val_hit_rate: 0.7579 - val_loss: 141.7974
+Epoch 56: hit_rate = 0.7579
+Epoch 57/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3761 - loss: 446.0633 - val_hit_rate: 0.7667 - val_loss: 144.2937
+Epoch 57: hit_rate = 0.7667
+Epoch 58/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3762 - loss: 445.9074 - val_hit_rate: 0.7682 - val_loss: 142.3022
+Epoch 58: hit_rate = 0.7682
+Epoch 59/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3764 - loss: 444.6595 - val_hit_rate: 0.7623 - val_loss: 137.4100
+Epoch 59: hit_rate = 0.7623
+Epoch 60/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3760 - loss: 442.7374 - val_hit_rate: 0.7606 - val_loss: 133.1736
+Epoch 60: hit_rate = 0.7606
+Epoch 61/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3776 - loss: 442.6354 - val_hit_rate: 0.7457 - val_loss: 135.8887
+Epoch 61: hit_rate = 0.7457
+Epoch 62/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3759 - loss: 444.0175 - val_hit_rate: 0.7479 - val_loss: 142.4082
+Epoch 62: hit_rate = 0.7479
+Epoch 63/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3763 - loss: 443.8916 - val_hit_rate: 0.7480 - val_loss: 138.6559
+Epoch 63: hit_rate = 0.7480
+Epoch 64/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3758 - loss: 441.7989 - val_hit_rate: 0.7478 - val_loss: 136.7359
+Epoch 64: hit_rate = 0.7478
+Epoch 65/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3765 - loss: 442.0042 - val_hit_rate: 0.7546 - val_loss: 140.1096
+Epoch 65: hit_rate = 0.7546
+Epoch 66/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3758 - loss: 441.6196 - val_hit_rate: 0.7673 - val_loss: 136.3893
+Epoch 66: hit_rate = 0.7673
+Epoch 67/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3769 - loss: 440.4422 - val_hit_rate: 0.7599 - val_loss: 138.7316
+Epoch 67: hit_rate = 0.7599
+Epoch 68/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3747 - loss: 441.3123 - val_hit_rate: 0.7803 - val_loss: 126.4859
+Epoch 68: hit_rate = 0.7803
+New best hit rate: 0.7803, saving model to models/simpleff_model.keras
+Epoch 69/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3760 - loss: 439.8866 - val_hit_rate: 0.7552 - val_loss: 131.2348
+Epoch 69: hit_rate = 0.7552
+Epoch 70/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3768 - loss: 440.4340 - val_hit_rate: 0.7555 - val_loss: 126.2544
+Epoch 70: hit_rate = 0.7555
+Epoch 71/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3761 - loss: 437.7749 - val_hit_rate: 0.7881 - val_loss: 120.7087
+Epoch 71: hit_rate = 0.7881
+New best hit rate: 0.7881, saving model to models/simpleff_model.keras
+Epoch 72/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3779 - loss: 440.1402 - val_hit_rate: 0.7893 - val_loss: 123.0423
+Epoch 72: hit_rate = 0.7893
+New best hit rate: 0.7893, saving model to models/simpleff_model.keras
+Epoch 73/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3773 - loss: 438.8521 - val_hit_rate: 0.7814 - val_loss: 120.5482
+Epoch 73: hit_rate = 0.7814
+Epoch 74/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3765 - loss: 439.1049 - val_hit_rate: 0.7763 - val_loss: 113.0917
+Epoch 74: hit_rate = 0.7763
+Epoch 75/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3783 - loss: 438.6725 - val_hit_rate: 0.7959 - val_loss: 133.0079
+Epoch 75: hit_rate = 0.7959
+New best hit rate: 0.7959, saving model to models/simpleff_model.keras
+Epoch 76/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 3s 2ms/step - hit_rate: 0.3754 - loss: 437.1870 - val_hit_rate: 0.7846 - val_loss: 101.8761
+Epoch 76: hit_rate = 0.7846
+Epoch 77/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 3s 2ms/step - hit_rate: 0.3765 - loss: 437.3308 - val_hit_rate: 0.7877 - val_loss: 112.4824
+Epoch 77: hit_rate = 0.7877
+Epoch 78/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3783 - loss: 437.2609 - val_hit_rate: 0.8017 - val_loss: 115.8073
+Epoch 78: hit_rate = 0.8017
+New best hit rate: 0.8017, saving model to models/simpleff_model.keras
+Epoch 79/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3785 - loss: 436.1444 - val_hit_rate: 0.7980 - val_loss: 110.4030
+Epoch 79: hit_rate = 0.7980
+Epoch 80/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3784 - loss: 435.6553 - val_hit_rate: 0.8121 - val_loss: 119.8907
+Epoch 80: hit_rate = 0.8121
+New best hit rate: 0.8121, saving model to models/simpleff_model.keras
+Epoch 81/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3792 - loss: 435.8631 - val_hit_rate: 0.8056 - val_loss: 122.3171
+Epoch 81: hit_rate = 0.8056
+Epoch 82/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3797 - loss: 434.8899 - val_hit_rate: 0.8188 - val_loss: 123.9365
+Epoch 82: hit_rate = 0.8187
+New best hit rate: 0.8187, saving model to models/simpleff_model.keras
+Epoch 83/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3801 - loss: 434.3146 - val_hit_rate: 0.7769 - val_loss: 114.1179
+Epoch 83: hit_rate = 0.7769
+Epoch 84/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3790 - loss: 435.7095 - val_hit_rate: 0.7974 - val_loss: 111.0345
+Epoch 84: hit_rate = 0.7974
+Epoch 85/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3789 - loss: 434.1478 - val_hit_rate: 0.7951 - val_loss: 120.4229
+Epoch 85: hit_rate = 0.7951
+Epoch 86/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3774 - loss: 432.8333 - val_hit_rate: 0.7920 - val_loss: 111.5490
+Epoch 86: hit_rate = 0.7920
+Epoch 87/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3789 - loss: 434.2142 - val_hit_rate: 0.7986 - val_loss: 127.3525
+Epoch 87: hit_rate = 0.7986
+Epoch 88/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 3s 2ms/step - hit_rate: 0.3791 - loss: 433.8665 - val_hit_rate: 0.8242 - val_loss: 109.3858
+Epoch 88: hit_rate = 0.8242
+New best hit rate: 0.8242, saving model to models/simpleff_model.keras
+Epoch 89/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3786 - loss: 431.7569 - val_hit_rate: 0.7866 - val_loss: 112.9879
+Epoch 89: hit_rate = 0.7866
+Epoch 90/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 3s 2ms/step - hit_rate: 0.3786 - loss: 433.5146 - val_hit_rate: 0.7922 - val_loss: 105.8839
+Epoch 90: hit_rate = 0.7922
+Epoch 91/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3781 - loss: 434.9813 - val_hit_rate: 0.8098 - val_loss: 103.6240
+Epoch 91: hit_rate = 0.8097
+Epoch 92/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3781 - loss: 431.2971 - val_hit_rate: 0.8222 - val_loss: 110.5823
+Epoch 92: hit_rate = 0.8222
+Epoch 93/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 3s 2ms/step - hit_rate: 0.3789 - loss: 432.4960 - val_hit_rate: 0.8196 - val_loss: 102.7431
+Epoch 93: hit_rate = 0.8196
+Epoch 94/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 3s 2ms/step - hit_rate: 0.3781 - loss: 432.7338 - val_hit_rate: 0.8221 - val_loss: 120.9714
+Epoch 94: hit_rate = 0.8221
+Epoch 95/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 3s 2ms/step - hit_rate: 0.3782 - loss: 431.2023 - val_hit_rate: 0.8035 - val_loss: 110.2603
+Epoch 95: hit_rate = 0.8035
+Epoch 96/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3787 - loss: 431.2134 - val_hit_rate: 0.8131 - val_loss: 127.8309
+Epoch 96: hit_rate = 0.8131
+Epoch 97/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3792 - loss: 431.5303 - val_hit_rate: 0.7971 - val_loss: 109.6039
+Epoch 97: hit_rate = 0.7971
+Epoch 98/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3787 - loss: 431.0944 - val_hit_rate: 0.8259 - val_loss: 102.9318
+Epoch 98: hit_rate = 0.8259
+New best hit rate: 0.8259, saving model to models/simpleff_model.keras
+Epoch 99/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3793 - loss: 430.0637 - val_hit_rate: 0.8140 - val_loss: 102.9962
+Epoch 99: hit_rate = 0.8140
+Epoch 100/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3787 - loss: 429.4777 - val_hit_rate: 0.8353 - val_loss: 105.4321
+Epoch 100: hit_rate = 0.8353
+New best hit rate: 0.8353, saving model to models/simpleff_model.keras
+SimpleFF model training complete in 479.64 seconds
+Best hit rate achieved: 0.8353
+
+Training DeepFF model...
+Epoch 1/100
+/usr/local/lib/python3.11/dist-packages/keras/src/layers/core/dense.py:87: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 10s 2ms/step - hit_rate: 0.0709 - loss: 23700.2070 - val_hit_rate: 0.3169 - val_loss: 894.1511
+Epoch 1: hit_rate = 0.3169
+New best hit rate: 0.3169, saving model to models/deepff_model.keras
+Epoch 2/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.1588 - loss: 2935.2258 - val_hit_rate: 0.4401 - val_loss: 601.8158
+Epoch 2: hit_rate = 0.4401
+New best hit rate: 0.4401, saving model to models/deepff_model.keras
+Epoch 3/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.1714 - loss: 2460.9624 - val_hit_rate: 0.4764 - val_loss: 552.9459
+Epoch 3: hit_rate = 0.4764
+New best hit rate: 0.4764, saving model to models/deepff_model.keras
+Epoch 4/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.1855 - loss: 2114.0691 - val_hit_rate: 0.4656 - val_loss: 496.4501
+Epoch 4: hit_rate = 0.4656
+Epoch 5/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.2071 - loss: 1731.6208 - val_hit_rate: 0.4792 - val_loss: 448.9908
+Epoch 5: hit_rate = 0.4792
+New best hit rate: 0.4792, saving model to models/deepff_model.keras
+Epoch 6/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.2300 - loss: 1500.8270 - val_hit_rate: 0.4936 - val_loss: 404.7378
+Epoch 6: hit_rate = 0.4936
+New best hit rate: 0.4936, saving model to models/deepff_model.keras
+Epoch 7/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.2400 - loss: 1350.1096 - val_hit_rate: 0.4635 - val_loss: 358.7422
+Epoch 7: hit_rate = 0.4635
+Epoch 8/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.2476 - loss: 1258.3635 - val_hit_rate: 0.5223 - val_loss: 385.4110
+Epoch 8: hit_rate = 0.5223
+New best hit rate: 0.5223, saving model to models/deepff_model.keras
+Epoch 9/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.2633 - loss: 1170.7792 - val_hit_rate: 0.5857 - val_loss: 307.8345
+Epoch 9: hit_rate = 0.5857
+New best hit rate: 0.5857, saving model to models/deepff_model.keras
+Epoch 10/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.2648 - loss: 1124.9937 - val_hit_rate: 0.6281 - val_loss: 275.8079
+Epoch 10: hit_rate = 0.6281
+New best hit rate: 0.6281, saving model to models/deepff_model.keras
+Epoch 11/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.2790 - loss: 1049.1154 - val_hit_rate: 0.5824 - val_loss: 274.4088
+Epoch 11: hit_rate = 0.5824
+Epoch 12/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.2844 - loss: 1033.7457 - val_hit_rate: 0.5933 - val_loss: 300.5653
+Epoch 12: hit_rate = 0.5933
+Epoch 13/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.2871 - loss: 983.5893 - val_hit_rate: 0.6719 - val_loss: 259.1828
+Epoch 13: hit_rate = 0.6719
+New best hit rate: 0.6719, saving model to models/deepff_model.keras
+Epoch 14/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.2932 - loss: 962.7701 - val_hit_rate: 0.6047 - val_loss: 253.9971
+Epoch 14: hit_rate = 0.6048
+Epoch 15/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.2954 - loss: 939.1027 - val_hit_rate: 0.6432 - val_loss: 247.0578
+Epoch 15: hit_rate = 0.6432
+Epoch 16/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.2995 - loss: 902.8757 - val_hit_rate: 0.5890 - val_loss: 255.5776
+Epoch 16: hit_rate = 0.5890
+Epoch 17/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3040 - loss: 901.9413 - val_hit_rate: 0.6179 - val_loss: 253.9315
+Epoch 17: hit_rate = 0.6179
+Epoch 18/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3116 - loss: 880.6265 - val_hit_rate: 0.6125 - val_loss: 244.6528
+Epoch 18: hit_rate = 0.6125
+Epoch 19/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3117 - loss: 857.6494 - val_hit_rate: 0.6526 - val_loss: 223.0871
+Epoch 19: hit_rate = 0.6526
+Epoch 20/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3189 - loss: 827.8437 - val_hit_rate: 0.6735 - val_loss: 228.7764
+Epoch 20: hit_rate = 0.6735
+New best hit rate: 0.6735, saving model to models/deepff_model.keras
+Epoch 21/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3162 - loss: 849.4654 - val_hit_rate: 0.6686 - val_loss: 212.2000
+Epoch 21: hit_rate = 0.6686
+Epoch 22/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3245 - loss: 818.2256 - val_hit_rate: 0.6836 - val_loss: 217.1409
+Epoch 22: hit_rate = 0.6836
+New best hit rate: 0.6836, saving model to models/deepff_model.keras
+Epoch 23/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3231 - loss: 813.6270 - val_hit_rate: 0.6627 - val_loss: 231.8008
+Epoch 23: hit_rate = 0.6627
+Epoch 24/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3290 - loss: 811.5419 - val_hit_rate: 0.5976 - val_loss: 227.3725
+Epoch 24: hit_rate = 0.5976
+Epoch 25/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3270 - loss: 798.6213 - val_hit_rate: 0.7198 - val_loss: 197.0976
+Epoch 25: hit_rate = 0.7198
+New best hit rate: 0.7198, saving model to models/deepff_model.keras
+Epoch 26/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3349 - loss: 778.0111 - val_hit_rate: 0.7220 - val_loss: 198.8158
+Epoch 26: hit_rate = 0.7220
+New best hit rate: 0.7220, saving model to models/deepff_model.keras
+Epoch 27/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3387 - loss: 769.9392 - val_hit_rate: 0.6914 - val_loss: 219.3419
+Epoch 27: hit_rate = 0.6914
+Epoch 28/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3357 - loss: 766.4606 - val_hit_rate: 0.6923 - val_loss: 204.3030
+Epoch 28: hit_rate = 0.6923
+Epoch 29/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3345 - loss: 756.5757 - val_hit_rate: 0.7032 - val_loss: 212.2774
+Epoch 29: hit_rate = 0.7032
+Epoch 30/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3431 - loss: 752.8813 - val_hit_rate: 0.6089 - val_loss: 264.5495
+Epoch 30: hit_rate = 0.6089
+Epoch 31/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3439 - loss: 730.1719 - val_hit_rate: 0.7163 - val_loss: 198.6540
+Epoch 31: hit_rate = 0.7163
+Epoch 32/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3493 - loss: 729.3010 - val_hit_rate: 0.7402 - val_loss: 197.1292
+Epoch 32: hit_rate = 0.7402
+New best hit rate: 0.7402, saving model to models/deepff_model.keras
+Epoch 33/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3451 - loss: 725.6882 - val_hit_rate: 0.6881 - val_loss: 200.2658
+Epoch 33: hit_rate = 0.6881
+Epoch 34/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3441 - loss: 735.5469 - val_hit_rate: 0.7214 - val_loss: 182.7595
+Epoch 34: hit_rate = 0.7214
+Epoch 35/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3536 - loss: 716.6965 - val_hit_rate: 0.7179 - val_loss: 199.6182
+Epoch 35: hit_rate = 0.7179
+Epoch 36/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3529 - loss: 709.2081 - val_hit_rate: 0.7102 - val_loss: 197.9624
+Epoch 36: hit_rate = 0.7102
+Epoch 37/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3506 - loss: 703.5619 - val_hit_rate: 0.6962 - val_loss: 211.6002
+Epoch 37: hit_rate = 0.6962
+Epoch 38/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3503 - loss: 692.2712 - val_hit_rate: 0.7434 - val_loss: 171.5961
+Epoch 38: hit_rate = 0.7434
+New best hit rate: 0.7434, saving model to models/deepff_model.keras
+Epoch 39/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3560 - loss: 692.8620 - val_hit_rate: 0.7258 - val_loss: 176.3190
+Epoch 39: hit_rate = 0.7258
+Epoch 40/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3559 - loss: 689.5262 - val_hit_rate: 0.6628 - val_loss: 194.5413
+Epoch 40: hit_rate = 0.6628
+Epoch 41/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3598 - loss: 672.4014 - val_hit_rate: 0.7288 - val_loss: 197.0067
+Epoch 41: hit_rate = 0.7288
+Epoch 42/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3607 - loss: 679.3146 - val_hit_rate: 0.7053 - val_loss: 182.5437
+Epoch 42: hit_rate = 0.7053
+Epoch 43/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3640 - loss: 665.4210 - val_hit_rate: 0.7423 - val_loss: 176.6155
+Epoch 43: hit_rate = 0.7422
+Epoch 44/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3636 - loss: 667.9106 - val_hit_rate: 0.7329 - val_loss: 181.3331
+Epoch 44: hit_rate = 0.7329
+Epoch 45/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3639 - loss: 660.7615 - val_hit_rate: 0.7398 - val_loss: 175.6245
+Epoch 45: hit_rate = 0.7398
+Epoch 46/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3655 - loss: 661.7637 - val_hit_rate: 0.7508 - val_loss: 172.6161
+Epoch 46: hit_rate = 0.7508
+New best hit rate: 0.7508, saving model to models/deepff_model.keras
+Epoch 47/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3689 - loss: 653.9095 - val_hit_rate: 0.7374 - val_loss: 175.1192
+Epoch 47: hit_rate = 0.7374
+Epoch 48/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3712 - loss: 639.9521 - val_hit_rate: 0.7317 - val_loss: 176.7605
+Epoch 48: hit_rate = 0.7317
+Epoch 49/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 5s 2ms/step - hit_rate: 0.3701 - loss: 647.6844 - val_hit_rate: 0.7020 - val_loss: 184.7421
+Epoch 49: hit_rate = 0.7020
+Epoch 50/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 5s 2ms/step - hit_rate: 0.3728 - loss: 643.8585 - val_hit_rate: 0.7676 - val_loss: 158.9741
+Epoch 50: hit_rate = 0.7676
+New best hit rate: 0.7676, saving model to models/deepff_model.keras
+Epoch 51/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3757 - loss: 639.8687 - val_hit_rate: 0.7417 - val_loss: 159.5197
+Epoch 51: hit_rate = 0.7417
+Epoch 52/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 5s 2ms/step - hit_rate: 0.3736 - loss: 634.0931 - val_hit_rate: 0.7159 - val_loss: 171.1913
+Epoch 52: hit_rate = 0.7159
+Epoch 53/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3765 - loss: 641.2820 - val_hit_rate: 0.7686 - val_loss: 154.0185
+Epoch 53: hit_rate = 0.7686
+New best hit rate: 0.7686, saving model to models/deepff_model.keras
+Epoch 54/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 5s 2ms/step - hit_rate: 0.3820 - loss: 623.7037 - val_hit_rate: 0.7689 - val_loss: 162.7546
+Epoch 54: hit_rate = 0.7689
+New best hit rate: 0.7689, saving model to models/deepff_model.keras
+Epoch 55/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 5s 2ms/step - hit_rate: 0.3802 - loss: 626.1071 - val_hit_rate: 0.7283 - val_loss: 191.6197
+Epoch 55: hit_rate = 0.7282
+Epoch 56/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3896 - loss: 612.3504 - val_hit_rate: 0.7531 - val_loss: 168.6942
+Epoch 56: hit_rate = 0.7531
+Epoch 57/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3797 - loss: 625.7897 - val_hit_rate: 0.7423 - val_loss: 159.5896
+Epoch 57: hit_rate = 0.7422
+Epoch 58/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3849 - loss: 625.6902 - val_hit_rate: 0.7775 - val_loss: 159.2824
+Epoch 58: hit_rate = 0.7775
+New best hit rate: 0.7775, saving model to models/deepff_model.keras
+Epoch 59/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3837 - loss: 618.3539 - val_hit_rate: 0.6958 - val_loss: 177.6855
+Epoch 59: hit_rate = 0.6958
+Epoch 60/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 5s 2ms/step - hit_rate: 0.3886 - loss: 609.4236 - val_hit_rate: 0.7192 - val_loss: 171.5662
+Epoch 60: hit_rate = 0.7192
+Epoch 61/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 5s 2ms/step - hit_rate: 0.3901 - loss: 601.5095 - val_hit_rate: 0.7202 - val_loss: 180.0524
+Epoch 61: hit_rate = 0.7202
+Epoch 62/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 5s 2ms/step - hit_rate: 0.3902 - loss: 600.9513 - val_hit_rate: 0.7166 - val_loss: 164.1389
+Epoch 62: hit_rate = 0.7166
+Epoch 63/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 5s 2ms/step - hit_rate: 0.3921 - loss: 593.7634 - val_hit_rate: 0.7552 - val_loss: 152.5747
+Epoch 63: hit_rate = 0.7552
+Epoch 64/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3917 - loss: 584.9925 - val_hit_rate: 0.7511 - val_loss: 157.9007
+Epoch 64: hit_rate = 0.7511
+Epoch 65/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 5s 2ms/step - hit_rate: 0.3929 - loss: 586.0278 - val_hit_rate: 0.7667 - val_loss: 152.6298
+Epoch 65: hit_rate = 0.7668
+Epoch 66/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 5s 3ms/step - hit_rate: 0.3957 - loss: 585.4390 - val_hit_rate: 0.7433 - val_loss: 184.2000
+Epoch 66: hit_rate = 0.7432
+Epoch 67/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 5s 2ms/step - hit_rate: 0.3977 - loss: 594.7531 - val_hit_rate: 0.7313 - val_loss: 190.4736
+Epoch 67: hit_rate = 0.7313
+Epoch 68/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 5s 2ms/step - hit_rate: 0.3916 - loss: 584.3480 - val_hit_rate: 0.7430 - val_loss: 160.4343
+Epoch 68: hit_rate = 0.7430
+Epoch 69/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3966 - loss: 583.4371 - val_hit_rate: 0.7028 - val_loss: 173.5633
+Epoch 69: hit_rate = 0.7028
+Epoch 70/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.3989 - loss: 577.2072 - val_hit_rate: 0.7663 - val_loss: 152.8697
+Epoch 70: hit_rate = 0.7662
+Epoch 71/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.4043 - loss: 586.6199 - val_hit_rate: 0.7293 - val_loss: 169.6969
+Epoch 71: hit_rate = 0.7293
+Epoch 72/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 5s 2ms/step - hit_rate: 0.4022 - loss: 570.9425 - val_hit_rate: 0.7371 - val_loss: 154.0404
+Epoch 72: hit_rate = 0.7371
+Epoch 73/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.4002 - loss: 569.8521 - val_hit_rate: 0.7504 - val_loss: 152.4710
+Epoch 73: hit_rate = 0.7504
+Epoch 74/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.4039 - loss: 569.2791 - val_hit_rate: 0.7709 - val_loss: 155.2608
+Epoch 74: hit_rate = 0.7709
+Epoch 75/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 5s 2ms/step - hit_rate: 0.4032 - loss: 570.7740 - val_hit_rate: 0.7962 - val_loss: 146.8809
+Epoch 75: hit_rate = 0.7963
+New best hit rate: 0.7963, saving model to models/deepff_model.keras
+Epoch 76/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.4075 - loss: 564.8406 - val_hit_rate: 0.7442 - val_loss: 155.1823
+Epoch 76: hit_rate = 0.7442
+Epoch 77/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 5s 2ms/step - hit_rate: 0.4075 - loss: 563.9338 - val_hit_rate: 0.7576 - val_loss: 159.1249
+Epoch 77: hit_rate = 0.7576
+Epoch 78/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 5s 2ms/step - hit_rate: 0.4063 - loss: 572.3716 - val_hit_rate: 0.7413 - val_loss: 165.0669
+Epoch 78: hit_rate = 0.7413
+Epoch 79/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.4074 - loss: 563.7659 - val_hit_rate: 0.7784 - val_loss: 145.3176
+Epoch 79: hit_rate = 0.7784
+Epoch 80/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.4039 - loss: 559.6919 - val_hit_rate: 0.7339 - val_loss: 187.9139
+Epoch 80: hit_rate = 0.7339
+Epoch 81/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.4106 - loss: 556.9156 - val_hit_rate: 0.7769 - val_loss: 140.5024
+Epoch 81: hit_rate = 0.7769
+Epoch 82/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 5s 2ms/step - hit_rate: 0.4146 - loss: 547.8720 - val_hit_rate: 0.7393 - val_loss: 159.7129
+Epoch 82: hit_rate = 0.7393
+Epoch 83/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 5s 2ms/step - hit_rate: 0.4117 - loss: 553.8331 - val_hit_rate: 0.7492 - val_loss: 159.2394
+Epoch 83: hit_rate = 0.7492
+Epoch 84/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.4127 - loss: 549.7357 - val_hit_rate: 0.7629 - val_loss: 162.5679
+Epoch 84: hit_rate = 0.7629
+Epoch 85/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.4153 - loss: 541.1349 - val_hit_rate: 0.7522 - val_loss: 160.7609
+Epoch 85: hit_rate = 0.7522
+Epoch 86/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.4157 - loss: 545.2256 - val_hit_rate: 0.7556 - val_loss: 153.9765
+Epoch 86: hit_rate = 0.7556
+Epoch 87/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.4146 - loss: 548.1483 - val_hit_rate: 0.7782 - val_loss: 148.1772
+Epoch 87: hit_rate = 0.7782
+Epoch 88/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 5s 2ms/step - hit_rate: 0.4126 - loss: 548.3245 - val_hit_rate: 0.7384 - val_loss: 178.6859
+Epoch 88: hit_rate = 0.7384
+Epoch 89/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 5s 2ms/step - hit_rate: 0.4120 - loss: 539.5109 - val_hit_rate: 0.7709 - val_loss: 146.6517
+Epoch 89: hit_rate = 0.7709
+Epoch 90/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.4172 - loss: 541.4077 - val_hit_rate: 0.7434 - val_loss: 174.9120
+Epoch 90: hit_rate = 0.7434
+Epoch 91/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 5s 2ms/step - hit_rate: 0.4148 - loss: 545.2431 - val_hit_rate: 0.7341 - val_loss: 160.7745
+Epoch 91: hit_rate = 0.7341
+Epoch 92/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 5s 2ms/step - hit_rate: 0.4184 - loss: 541.9346 - val_hit_rate: 0.7856 - val_loss: 143.3259
+Epoch 92: hit_rate = 0.7856
+Epoch 93/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.4160 - loss: 538.5048 - val_hit_rate: 0.7693 - val_loss: 141.3186
+Epoch 93: hit_rate = 0.7693
+Epoch 94/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.4208 - loss: 533.7269 - val_hit_rate: 0.7574 - val_loss: 158.8086
+Epoch 94: hit_rate = 0.7574
+Epoch 95/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 5s 2ms/step - hit_rate: 0.4191 - loss: 535.7820 - val_hit_rate: 0.7800 - val_loss: 146.5171
+Epoch 95: hit_rate = 0.7800
+Epoch 96/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.4182 - loss: 546.6042 - val_hit_rate: 0.7638 - val_loss: 152.6621
+Epoch 96: hit_rate = 0.7638
+Epoch 97/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.4229 - loss: 543.2690 - val_hit_rate: 0.7506 - val_loss: 148.7495
+Epoch 97: hit_rate = 0.7506
+Epoch 98/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.4214 - loss: 535.8808 - val_hit_rate: 0.7458 - val_loss: 157.2933
+Epoch 98: hit_rate = 0.7458
+Epoch 99/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 5s 2ms/step - hit_rate: 0.4194 - loss: 535.1924 - val_hit_rate: 0.7428 - val_loss: 157.6477
+Epoch 99: hit_rate = 0.7428
+Epoch 100/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 4s 2ms/step - hit_rate: 0.4234 - loss: 532.9100 - val_hit_rate: 0.7811 - val_loss: 150.8042
+Epoch 100: hit_rate = 0.7811
+DeepFF model training complete in 535.50 seconds
+Best hit rate achieved: 0.7963
+
+Training CNN model...
+Epoch 1/100
+/usr/local/lib/python3.11/dist-packages/keras/src/layers/convolutional/base_conv.py:107: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 15s 6ms/step - hit_rate: 2.0633 - loss: 9644.8164 - val_hit_rate: 2.1307 - val_loss: 7034.1528
+Epoch 1: hit_rate = 0.0966
+New best hit rate: 0.0966, saving model to models/cnn_model.keras
+Epoch 2/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 11s 6ms/step - hit_rate: 1.9970 - loss: 7408.8687 - val_hit_rate: 2.0124 - val_loss: 6826.1816
+Epoch 2: hit_rate = 0.1133
+New best hit rate: 0.1133, saving model to models/cnn_model.keras
+Epoch 3/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 11s 5ms/step - hit_rate: 2.0101 - loss: 7118.4229 - val_hit_rate: 1.9195 - val_loss: 6882.7236
+Epoch 3: hit_rate = 0.1108
+Epoch 4/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 11s 6ms/step - hit_rate: 2.0119 - loss: 7008.5352 - val_hit_rate: 1.9514 - val_loss: 6717.1670
+Epoch 4: hit_rate = 0.1118
+Epoch 5/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 11s 5ms/step - hit_rate: 2.0033 - loss: 6874.6255 - val_hit_rate: 1.9458 - val_loss: 6734.8442
+Epoch 5: hit_rate = 0.1121
+Epoch 6/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 11s 5ms/step - hit_rate: 2.0061 - loss: 6847.1753 - val_hit_rate: 2.0039 - val_loss: 6627.4429
+Epoch 6: hit_rate = 0.1273
+New best hit rate: 0.1273, saving model to models/cnn_model.keras
+Epoch 7/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 11s 6ms/step - hit_rate: 2.0192 - loss: 6753.6343 - val_hit_rate: 1.9870 - val_loss: 6598.7686
+Epoch 7: hit_rate = 0.1183
+Epoch 8/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 11s 6ms/step - hit_rate: 2.0196 - loss: 6713.9922 - val_hit_rate: 2.0374 - val_loss: 6572.4756
+Epoch 8: hit_rate = 0.1284
+New best hit rate: 0.1284, saving model to models/cnn_model.keras
+Epoch 9/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 11s 6ms/step - hit_rate: 2.0021 - loss: 6664.7666 - val_hit_rate: 2.0656 - val_loss: 6555.8369
+Epoch 9: hit_rate = 0.1395
+New best hit rate: 0.1395, saving model to models/cnn_model.keras
+Epoch 10/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 11s 5ms/step - hit_rate: 2.0152 - loss: 6587.8506 - val_hit_rate: 2.0211 - val_loss: 6580.8452
+Epoch 10: hit_rate = 0.1287
+Epoch 11/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 11s 6ms/step - hit_rate: 2.0145 - loss: 6536.6875 - val_hit_rate: 2.0802 - val_loss: 6544.1245
+Epoch 11: hit_rate = 0.1452
+New best hit rate: 0.1452, saving model to models/cnn_model.keras
+Epoch 12/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 11s 6ms/step - hit_rate: 2.0033 - loss: 6528.4014 - val_hit_rate: 2.0325 - val_loss: 6601.4385
+Epoch 12: hit_rate = 0.1271
+Epoch 13/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 11s 6ms/step - hit_rate: 2.0162 - loss: 6520.1118 - val_hit_rate: 2.0684 - val_loss: 6631.1602
+Epoch 13: hit_rate = 0.1373
+Epoch 14/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 11s 5ms/step - hit_rate: 2.0238 - loss: 6442.2358 - val_hit_rate: 2.0961 - val_loss: 6657.7451
+Epoch 14: hit_rate = 0.1499
+New best hit rate: 0.1499, saving model to models/cnn_model.keras
+Epoch 15/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 11s 6ms/step - hit_rate: 2.0133 - loss: 6374.0381 - val_hit_rate: 2.0729 - val_loss: 6737.7363
+Epoch 15: hit_rate = 0.1473
+Epoch 16/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 11s 5ms/step - hit_rate: 2.0090 - loss: 6328.9507 - val_hit_rate: 2.0446 - val_loss: 6780.5469
+Epoch 16: hit_rate = 0.1428
+Epoch 17/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 11s 5ms/step - hit_rate: 2.0048 - loss: 6244.8057 - val_hit_rate: 2.0586 - val_loss: 6795.6260
+Epoch 17: hit_rate = 0.1432
+Epoch 18/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 11s 6ms/step - hit_rate: 2.0177 - loss: 6199.4736 - val_hit_rate: 2.0896 - val_loss: 6851.7744
+Epoch 18: hit_rate = 0.1499
+Epoch 19/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 11s 5ms/step - hit_rate: 2.0148 - loss: 6131.9453 - val_hit_rate: 2.0756 - val_loss: 6917.9126
+Epoch 19: hit_rate = 0.1525
+New best hit rate: 0.1525, saving model to models/cnn_model.keras
+Epoch 20/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 11s 5ms/step - hit_rate: 2.0015 - loss: 6064.6958 - val_hit_rate: 2.0644 - val_loss: 6964.5210
+Epoch 20: hit_rate = 0.1465
+Epoch 21/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 11s 5ms/step - hit_rate: 1.9951 - loss: 6036.0576 - val_hit_rate: 2.0386 - val_loss: 7041.7148
+Epoch 21: hit_rate = 0.1471
+Epoch 22/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 11s 5ms/step - hit_rate: 1.9961 - loss: 5948.3530 - val_hit_rate: 2.0335 - val_loss: 7168.0337
+Epoch 22: hit_rate = 0.1532
+New best hit rate: 0.1532, saving model to models/cnn_model.keras
+Epoch 23/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 1.9846 - loss: 5889.8438 - val_hit_rate: 2.0265 - val_loss: 7182.9390
+Epoch 23: hit_rate = 0.1409
+Epoch 24/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 1.9741 - loss: 5833.8403 - val_hit_rate: 2.0682 - val_loss: 7257.5854
+Epoch 24: hit_rate = 0.1527
+Epoch 25/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 1.9858 - loss: 5755.7769 - val_hit_rate: 2.0426 - val_loss: 7346.8730
+Epoch 25: hit_rate = 0.1464
+Epoch 26/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 1.9752 - loss: 5710.8159 - val_hit_rate: 2.0408 - val_loss: 7394.1733
+Epoch 26: hit_rate = 0.1449
+Epoch 27/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 1.9803 - loss: 5641.1831 - val_hit_rate: 2.0229 - val_loss: 7434.4780
+Epoch 27: hit_rate = 0.1510
+Epoch 28/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 1.9852 - loss: 5548.2134 - val_hit_rate: 2.0359 - val_loss: 7500.4326
+Epoch 28: hit_rate = 0.1477
+Epoch 29/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 11s 5ms/step - hit_rate: 1.9876 - loss: 5492.0786 - val_hit_rate: 2.0203 - val_loss: 7511.3418
+Epoch 29: hit_rate = 0.1489
+Epoch 30/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 11s 5ms/step - hit_rate: 1.9769 - loss: 5430.0195 - val_hit_rate: 2.0173 - val_loss: 7640.1768
+Epoch 30: hit_rate = 0.1552
+New best hit rate: 0.1552, saving model to models/cnn_model.keras
+Epoch 31/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 11s 5ms/step - hit_rate: 1.9657 - loss: 5395.9839 - val_hit_rate: 2.0217 - val_loss: 7700.2197
+Epoch 31: hit_rate = 0.1557
+New best hit rate: 0.1557, saving model to models/cnn_model.keras
+Epoch 32/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 1.9772 - loss: 5301.4341 - val_hit_rate: 1.9974 - val_loss: 7774.2466
+Epoch 32: hit_rate = 0.1588
+New best hit rate: 0.1588, saving model to models/cnn_model.keras
+Epoch 33/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 1.9770 - loss: 5294.0200 - val_hit_rate: 2.0173 - val_loss: 7821.3345
+Epoch 33: hit_rate = 0.1551
+Epoch 34/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 1.9714 - loss: 5210.6504 - val_hit_rate: 2.0202 - val_loss: 7845.1929
+Epoch 34: hit_rate = 0.1558
+Epoch 35/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 11s 5ms/step - hit_rate: 1.9611 - loss: 5137.4243 - val_hit_rate: 2.0189 - val_loss: 7978.3687
+Epoch 35: hit_rate = 0.1515
+Epoch 36/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 1.9642 - loss: 5114.5396 - val_hit_rate: 2.0288 - val_loss: 7978.5757
+Epoch 36: hit_rate = 0.1619
+New best hit rate: 0.1619, saving model to models/cnn_model.keras
+Epoch 37/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 11s 5ms/step - hit_rate: 1.9642 - loss: 5067.1323 - val_hit_rate: 2.0349 - val_loss: 7995.1846
+Epoch 37: hit_rate = 0.1548
+Epoch 38/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 1.9577 - loss: 5044.5967 - val_hit_rate: 2.0006 - val_loss: 8129.6436
+Epoch 38: hit_rate = 0.1532
+Epoch 39/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 1.9617 - loss: 4958.5830 - val_hit_rate: 2.0427 - val_loss: 8155.3359
+Epoch 39: hit_rate = 0.1665
+New best hit rate: 0.1665, saving model to models/cnn_model.keras
+Epoch 40/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 1.9716 - loss: 4922.4609 - val_hit_rate: 2.0067 - val_loss: 8289.9844
+Epoch 40: hit_rate = 0.1474
+Epoch 41/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 11s 5ms/step - hit_rate: 1.9668 - loss: 4873.5698 - val_hit_rate: 2.0194 - val_loss: 8229.2178
+Epoch 41: hit_rate = 0.1467
+Epoch 42/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 1.9582 - loss: 4835.2988 - val_hit_rate: 2.0156 - val_loss: 8278.7568
+Epoch 42: hit_rate = 0.1533
+Epoch 43/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 11s 5ms/step - hit_rate: 1.9747 - loss: 4756.5142 - val_hit_rate: 2.0378 - val_loss: 8366.6797
+Epoch 43: hit_rate = 0.1559
+Epoch 44/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 1.9517 - loss: 4763.4775 - val_hit_rate: 2.0381 - val_loss: 8345.4375
+Epoch 44: hit_rate = 0.1583
+Epoch 45/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 11s 6ms/step - hit_rate: 1.9507 - loss: 4675.7192 - val_hit_rate: 2.0178 - val_loss: 8410.8340
+Epoch 45: hit_rate = 0.1564
+Epoch 46/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 11s 5ms/step - hit_rate: 1.9359 - loss: 4648.8745 - val_hit_rate: 2.0141 - val_loss: 8508.3574
+Epoch 46: hit_rate = 0.1549
+Epoch 47/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 11s 5ms/step - hit_rate: 1.9472 - loss: 4661.3545 - val_hit_rate: 2.0232 - val_loss: 8510.3516
+Epoch 47: hit_rate = 0.1614
+Epoch 48/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 11s 5ms/step - hit_rate: 1.9515 - loss: 4601.1558 - val_hit_rate: 2.0184 - val_loss: 8511.0645
+Epoch 48: hit_rate = 0.1716
+New best hit rate: 0.1716, saving model to models/cnn_model.keras
+Epoch 49/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 11s 5ms/step - hit_rate: 1.9612 - loss: 4533.3887 - val_hit_rate: 2.0191 - val_loss: 8521.4385
+Epoch 49: hit_rate = 0.1581
+Epoch 50/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 11s 5ms/step - hit_rate: 1.9591 - loss: 4547.4893 - val_hit_rate: 2.0256 - val_loss: 8594.5713
+Epoch 50: hit_rate = 0.1604
+Epoch 51/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 11s 5ms/step - hit_rate: 1.9696 - loss: 4436.9766 - val_hit_rate: 2.0479 - val_loss: 8586.9043
+Epoch 51: hit_rate = 0.1568
+Epoch 52/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 11s 5ms/step - hit_rate: 1.9431 - loss: 4429.5571 - val_hit_rate: 2.0389 - val_loss: 8624.0723
+Epoch 52: hit_rate = 0.1598
+Epoch 53/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 11s 5ms/step - hit_rate: 1.9535 - loss: 4392.5825 - val_hit_rate: 2.0081 - val_loss: 8680.2451
+Epoch 53: hit_rate = 0.1507
+Epoch 54/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 11s 5ms/step - hit_rate: 1.9604 - loss: 4347.2036 - val_hit_rate: 2.0252 - val_loss: 8722.2666
+Epoch 54: hit_rate = 0.1643
+Epoch 55/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 11s 5ms/step - hit_rate: 1.9628 - loss: 4295.2705 - val_hit_rate: 2.0156 - val_loss: 8776.7773
+Epoch 55: hit_rate = 0.1578
+Epoch 56/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 11s 5ms/step - hit_rate: 1.9634 - loss: 4289.6025 - val_hit_rate: 2.0141 - val_loss: 8810.6016
+Epoch 56: hit_rate = 0.1641
+Epoch 57/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 1.9521 - loss: 4260.8408 - val_hit_rate: 2.0403 - val_loss: 8759.2529
+Epoch 57: hit_rate = 0.1606
+Epoch 58/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 1.9612 - loss: 4223.7642 - val_hit_rate: 2.0201 - val_loss: 8878.6768
+Epoch 58: hit_rate = 0.1515
+Epoch 59/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 11s 5ms/step - hit_rate: 1.9530 - loss: 4244.2007 - val_hit_rate: 1.9985 - val_loss: 9048.5596
+Epoch 59: hit_rate = 0.1545
+Epoch 60/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 11s 5ms/step - hit_rate: 1.9660 - loss: 4225.3848 - val_hit_rate: 2.0176 - val_loss: 8921.6719
+Epoch 60: hit_rate = 0.1645
+Epoch 61/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 1.9538 - loss: 4164.8511 - val_hit_rate: 2.0406 - val_loss: 8991.6182
+Epoch 61: hit_rate = 0.1674
+Epoch 62/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 11s 5ms/step - hit_rate: 1.9545 - loss: 4142.9790 - val_hit_rate: 2.0517 - val_loss: 8973.7334
+Epoch 62: hit_rate = 0.1639
+Epoch 63/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 11s 5ms/step - hit_rate: 1.9630 - loss: 4068.6174 - val_hit_rate: 2.0084 - val_loss: 9103.9102
+Epoch 63: hit_rate = 0.1668
+Epoch 64/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 11s 5ms/step - hit_rate: 1.9443 - loss: 4137.3423 - val_hit_rate: 2.0076 - val_loss: 9039.5703
+Epoch 64: hit_rate = 0.1573
+Epoch 65/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 11s 5ms/step - hit_rate: 1.9583 - loss: 4058.8000 - val_hit_rate: 1.9875 - val_loss: 9070.7666
+Epoch 65: hit_rate = 0.1571
+Epoch 66/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 11s 5ms/step - hit_rate: 1.9541 - loss: 4052.4512 - val_hit_rate: 1.9784 - val_loss: 9162.1895
+Epoch 66: hit_rate = 0.1506
+Epoch 67/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 11s 6ms/step - hit_rate: 1.9623 - loss: 4029.8164 - val_hit_rate: 1.9856 - val_loss: 9233.3008
+Epoch 67: hit_rate = 0.1557
+Epoch 68/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 1.9543 - loss: 3994.5901 - val_hit_rate: 1.9785 - val_loss: 9194.9482
+Epoch 68: hit_rate = 0.1573
+Epoch 69/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 1.9501 - loss: 3952.8206 - val_hit_rate: 1.9766 - val_loss: 9244.0518
+Epoch 69: hit_rate = 0.1569
+Epoch 70/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 1.9475 - loss: 3932.4900 - val_hit_rate: 2.0050 - val_loss: 9359.4814
+Epoch 70: hit_rate = 0.1608
+Epoch 71/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 1.9474 - loss: 3939.3738 - val_hit_rate: 2.0234 - val_loss: 9219.6982
+Epoch 71: hit_rate = 0.1584
+Epoch 72/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 1.9640 - loss: 3909.5959 - val_hit_rate: 1.9941 - val_loss: 9306.3408
+Epoch 72: hit_rate = 0.1545
+Epoch 73/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 1.9554 - loss: 3886.4548 - val_hit_rate: 1.9603 - val_loss: 9354.8438
+Epoch 73: hit_rate = 0.1477
+Epoch 74/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 1.9522 - loss: 3901.0596 - val_hit_rate: 2.0135 - val_loss: 9343.9287
+Epoch 74: hit_rate = 0.1613
+Epoch 75/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 1.9567 - loss: 3859.9812 - val_hit_rate: 1.9852 - val_loss: 9478.4053
+Epoch 75: hit_rate = 0.1557
+Epoch 76/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 1.9698 - loss: 3824.4124 - val_hit_rate: 1.9664 - val_loss: 9417.2861
+Epoch 76: hit_rate = 0.1463
+Epoch 77/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 1.9647 - loss: 3793.2917 - val_hit_rate: 1.9826 - val_loss: 9352.8330
+Epoch 77: hit_rate = 0.1552
+Epoch 78/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 1.9495 - loss: 3795.2302 - val_hit_rate: 2.0076 - val_loss: 9338.1172
+Epoch 78: hit_rate = 0.1597
+Epoch 79/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 1.9648 - loss: 3804.8022 - val_hit_rate: 1.9713 - val_loss: 9385.7900
+Epoch 79: hit_rate = 0.1505
+Epoch 80/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 1.9618 - loss: 3782.9639 - val_hit_rate: 1.9913 - val_loss: 9364.1572
+Epoch 80: hit_rate = 0.1568
+Epoch 81/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 1.9650 - loss: 3760.1487 - val_hit_rate: 2.0055 - val_loss: 9546.1797
+Epoch 81: hit_rate = 0.1514
+Epoch 82/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 1.9494 - loss: 3718.6494 - val_hit_rate: 1.9914 - val_loss: 9500.6475
+Epoch 82: hit_rate = 0.1594
+Epoch 83/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 1.9610 - loss: 3751.2603 - val_hit_rate: 2.0006 - val_loss: 9466.7197
+Epoch 83: hit_rate = 0.1535
+Epoch 84/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 1.9545 - loss: 3696.4138 - val_hit_rate: 1.9845 - val_loss: 9505.1787
+Epoch 84: hit_rate = 0.1565
+Epoch 85/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 1.9619 - loss: 3678.7856 - val_hit_rate: 2.0111 - val_loss: 9417.0449
+Epoch 85: hit_rate = 0.1568
+Epoch 86/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 1.9721 - loss: 3667.8042 - val_hit_rate: 1.9708 - val_loss: 9691.0713
+Epoch 86: hit_rate = 0.1571
+Epoch 87/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 1.9592 - loss: 3687.2405 - val_hit_rate: 1.9980 - val_loss: 9658.1865
+Epoch 87: hit_rate = 0.1599
+Epoch 88/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 1.9608 - loss: 3638.8843 - val_hit_rate: 2.0043 - val_loss: 9592.4863
+Epoch 88: hit_rate = 0.1628
+Epoch 89/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 1.9700 - loss: 3643.9841 - val_hit_rate: 1.9829 - val_loss: 9655.9834
+Epoch 89: hit_rate = 0.1572
+Epoch 90/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 1.9613 - loss: 3606.4500 - val_hit_rate: 1.9962 - val_loss: 9645.7676
+Epoch 90: hit_rate = 0.1524
+Epoch 91/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 1.9773 - loss: 3596.9673 - val_hit_rate: 1.9581 - val_loss: 9545.7988
+Epoch 91: hit_rate = 0.1513
+Epoch 92/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 1.9560 - loss: 3614.1218 - val_hit_rate: 1.9838 - val_loss: 9832.0508
+Epoch 92: hit_rate = 0.1648
+Epoch 93/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 1.9646 - loss: 3572.2590 - val_hit_rate: 1.9729 - val_loss: 9755.3838
+Epoch 93: hit_rate = 0.1505
+Epoch 94/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 1.9602 - loss: 3572.4592 - val_hit_rate: 1.9760 - val_loss: 9735.6396
+Epoch 94: hit_rate = 0.1505
+Epoch 95/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 1.9700 - loss: 3520.2971 - val_hit_rate: 1.9801 - val_loss: 9736.2734
+Epoch 95: hit_rate = 0.1447
+Epoch 96/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 1.9649 - loss: 3553.9399 - val_hit_rate: 1.9661 - val_loss: 9802.8330
+Epoch 96: hit_rate = 0.1511
+Epoch 97/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 1.9647 - loss: 3541.3792 - val_hit_rate: 1.9683 - val_loss: 9860.0713
+Epoch 97: hit_rate = 0.1569
+Epoch 98/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 1.9485 - loss: 3532.9319 - val_hit_rate: 1.9474 - val_loss: 9921.9707
+Epoch 98: hit_rate = 0.1496
+Epoch 99/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 1.9550 - loss: 3553.0276 - val_hit_rate: 1.9367 - val_loss: 9998.8691
+Epoch 99: hit_rate = 0.1560
+Epoch 100/100
+2000/2000 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 1.9660 - loss: 3472.2073 - val_hit_rate: 1.9568 - val_loss: 9900.5771
+Epoch 100: hit_rate = 0.1511
+CNN model training complete in 1684.99 seconds
+Best hit rate achieved: 0.1716
+
+Training LSTM model...
+Epoch 1/100
+/usr/local/lib/python3.11/dist-packages/keras/src/layers/rnn/rnn.py:204: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(**kwargs)
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 13s 5ms/step - hit_rate: 1.7090 - loss: 19066.6094 - val_hit_rate: 2.2235 - val_loss: 3206.0735
+Epoch 1: hit_rate = 0.2673
+New best hit rate: 0.2673, saving model to models/lstm_model.keras
+Epoch 2/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.0780 - loss: 2575.3430 - val_hit_rate: 2.0777 - val_loss: 1980.9414
+Epoch 2: hit_rate = 0.2945
+New best hit rate: 0.2945, saving model to models/lstm_model.keras
+Epoch 3/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.1502 - loss: 1780.0319 - val_hit_rate: 2.1859 - val_loss: 1696.6870
+Epoch 3: hit_rate = 0.4021
+New best hit rate: 0.4021, saving model to models/lstm_model.keras
+Epoch 4/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.2108 - loss: 1591.8751 - val_hit_rate: 2.2887 - val_loss: 1514.6125
+Epoch 4: hit_rate = 0.4553
+New best hit rate: 0.4553, saving model to models/lstm_model.keras
+Epoch 5/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.2376 - loss: 1446.3889 - val_hit_rate: 2.2816 - val_loss: 1391.4906
+Epoch 5: hit_rate = 0.4524
+Epoch 6/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.2702 - loss: 1295.7089 - val_hit_rate: 2.3356 - val_loss: 1175.1133
+Epoch 6: hit_rate = 0.5185
+New best hit rate: 0.5185, saving model to models/lstm_model.keras
+Epoch 7/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.2836 - loss: 1215.2585 - val_hit_rate: 2.3475 - val_loss: 1117.7305
+Epoch 7: hit_rate = 0.5348
+New best hit rate: 0.5348, saving model to models/lstm_model.keras
+Epoch 8/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.2985 - loss: 1142.2957 - val_hit_rate: 2.4136 - val_loss: 1091.9924
+Epoch 8: hit_rate = 0.5650
+New best hit rate: 0.5650, saving model to models/lstm_model.keras
+Epoch 9/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.3186 - loss: 1022.4748 - val_hit_rate: 2.4031 - val_loss: 976.6365
+Epoch 9: hit_rate = 0.5454
+Epoch 10/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.3298 - loss: 975.3344 - val_hit_rate: 2.3991 - val_loss: 1038.3719
+Epoch 10: hit_rate = 0.5597
+Epoch 11/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.3335 - loss: 938.1299 - val_hit_rate: 2.4142 - val_loss: 808.0007
+Epoch 11: hit_rate = 0.5812
+New best hit rate: 0.5812, saving model to models/lstm_model.keras
+Epoch 12/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.3654 - loss: 794.6941 - val_hit_rate: 2.3827 - val_loss: 688.5126
+Epoch 12: hit_rate = 0.5621
+Epoch 13/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.3855 - loss: 702.8126 - val_hit_rate: 2.3489 - val_loss: 572.8087
+Epoch 13: hit_rate = 0.5583
+Epoch 14/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.4147 - loss: 583.5802 - val_hit_rate: 2.3902 - val_loss: 526.3331
+Epoch 14: hit_rate = 0.5901
+New best hit rate: 0.5901, saving model to models/lstm_model.keras
+Epoch 15/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.4085 - loss: 543.7904 - val_hit_rate: 2.5071 - val_loss: 380.0117
+Epoch 15: hit_rate = 0.6736
+New best hit rate: 0.6736, saving model to models/lstm_model.keras
+Epoch 16/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.4157 - loss: 476.2079 - val_hit_rate: 2.5122 - val_loss: 337.9727
+Epoch 16: hit_rate = 0.6731
+Epoch 17/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.4147 - loss: 462.8979 - val_hit_rate: 2.4892 - val_loss: 340.6146
+Epoch 17: hit_rate = 0.6431
+Epoch 18/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.4615 - loss: 374.9455 - val_hit_rate: 2.5227 - val_loss: 321.8086
+Epoch 18: hit_rate = 0.6771
+New best hit rate: 0.6771, saving model to models/lstm_model.keras
+Epoch 19/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.4402 - loss: 393.5474 - val_hit_rate: 2.5140 - val_loss: 315.0311
+Epoch 19: hit_rate = 0.6693
+Epoch 20/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.4445 - loss: 374.5423 - val_hit_rate: 2.5263 - val_loss: 304.3449
+Epoch 20: hit_rate = 0.6769
+Epoch 21/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.4818 - loss: 325.8854 - val_hit_rate: 2.5920 - val_loss: 300.9350
+Epoch 21: hit_rate = 0.7238
+New best hit rate: 0.7238, saving model to models/lstm_model.keras
+Epoch 22/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.4706 - loss: 324.7181 - val_hit_rate: 2.4735 - val_loss: 350.6682
+Epoch 22: hit_rate = 0.6196
+Epoch 23/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.4885 - loss: 284.2669 - val_hit_rate: 2.5909 - val_loss: 233.9501
+Epoch 23: hit_rate = 0.7361
+New best hit rate: 0.7361, saving model to models/lstm_model.keras
+Epoch 24/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.4922 - loss: 282.7102 - val_hit_rate: 2.5762 - val_loss: 237.3646
+Epoch 24: hit_rate = 0.7290
+Epoch 25/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.4878 - loss: 279.0781 - val_hit_rate: 2.6014 - val_loss: 220.7505
+Epoch 25: hit_rate = 0.7699
+New best hit rate: 0.7699, saving model to models/lstm_model.keras
+Epoch 26/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.5232 - loss: 263.7956 - val_hit_rate: 2.5482 - val_loss: 441.3214
+Epoch 26: hit_rate = 0.6837
+Epoch 27/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.4913 - loss: 315.3281 - val_hit_rate: 2.5983 - val_loss: 209.9041
+Epoch 27: hit_rate = 0.7581
+Epoch 28/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.5343 - loss: 239.4133 - val_hit_rate: 2.5675 - val_loss: 220.3938
+Epoch 28: hit_rate = 0.7236
+Epoch 29/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.5387 - loss: 230.0065 - val_hit_rate: 2.5794 - val_loss: 204.2262
+Epoch 29: hit_rate = 0.7422
+Epoch 30/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.5331 - loss: 220.3011 - val_hit_rate: 2.5769 - val_loss: 205.9267
+Epoch 30: hit_rate = 0.7286
+Epoch 31/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.5435 - loss: 215.2581 - val_hit_rate: 2.5482 - val_loss: 266.6438
+Epoch 31: hit_rate = 0.6923
+Epoch 32/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.5405 - loss: 222.1588 - val_hit_rate: 2.4614 - val_loss: 787.4926
+Epoch 32: hit_rate = 0.5891
+Epoch 33/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.5401 - loss: 218.4487 - val_hit_rate: 2.5943 - val_loss: 258.8202
+Epoch 33: hit_rate = 0.7329
+Epoch 34/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.5304 - loss: 223.2194 - val_hit_rate: 2.4999 - val_loss: 273.2259
+Epoch 34: hit_rate = 0.6659
+Epoch 35/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.5471 - loss: 205.1060 - val_hit_rate: 2.5689 - val_loss: 221.7899
+Epoch 35: hit_rate = 0.7302
+Epoch 36/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.5624 - loss: 189.6869 - val_hit_rate: 2.6081 - val_loss: 164.0038
+Epoch 36: hit_rate = 0.7615
+Epoch 37/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.5468 - loss: 202.0266 - val_hit_rate: 2.6109 - val_loss: 177.3522
+Epoch 37: hit_rate = 0.7786
+New best hit rate: 0.7786, saving model to models/lstm_model.keras
+Epoch 38/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.5428 - loss: 201.8411 - val_hit_rate: 2.6631 - val_loss: 158.2355
+Epoch 38: hit_rate = 0.8160
+New best hit rate: 0.8160, saving model to models/lstm_model.keras
+Epoch 39/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.5839 - loss: 177.9973 - val_hit_rate: 2.6219 - val_loss: 163.5159
+Epoch 39: hit_rate = 0.7868
+Epoch 40/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.5635 - loss: 180.6759 - val_hit_rate: 2.6367 - val_loss: 171.5748
+Epoch 40: hit_rate = 0.7849
+Epoch 41/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.5612 - loss: 194.6848 - val_hit_rate: 2.7132 - val_loss: 120.0766
+Epoch 41: hit_rate = 0.8642
+New best hit rate: 0.8642, saving model to models/lstm_model.keras
+Epoch 42/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.5823 - loss: 160.6514 - val_hit_rate: 2.6706 - val_loss: 144.0481
+Epoch 42: hit_rate = 0.8194
+Epoch 43/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.5615 - loss: 180.0729 - val_hit_rate: 2.6965 - val_loss: 120.1967
+Epoch 43: hit_rate = 0.8560
+Epoch 44/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.5983 - loss: 160.2969 - val_hit_rate: 2.6827 - val_loss: 130.0888
+Epoch 44: hit_rate = 0.8447
+Epoch 45/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.5850 - loss: 159.9968 - val_hit_rate: 2.6329 - val_loss: 157.8519
+Epoch 45: hit_rate = 0.7853
+Epoch 46/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.5966 - loss: 148.2814 - val_hit_rate: 2.6207 - val_loss: 164.0709
+Epoch 46: hit_rate = 0.7721
+Epoch 47/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.5675 - loss: 181.0142 - val_hit_rate: 2.6308 - val_loss: 169.2755
+Epoch 47: hit_rate = 0.7988
+Epoch 48/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.5783 - loss: 165.1816 - val_hit_rate: 2.6345 - val_loss: 154.8633
+Epoch 48: hit_rate = 0.8013
+Epoch 49/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.5956 - loss: 160.0768 - val_hit_rate: 2.7133 - val_loss: 113.6905
+Epoch 49: hit_rate = 0.8642
+Epoch 50/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.6087 - loss: 152.4921 - val_hit_rate: 2.6951 - val_loss: 125.4362
+Epoch 50: hit_rate = 0.8485
+Epoch 51/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.5926 - loss: 163.3524 - val_hit_rate: 2.7139 - val_loss: 117.3954
+Epoch 51: hit_rate = 0.8620
+Epoch 52/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.6061 - loss: 152.6327 - val_hit_rate: 2.7154 - val_loss: 108.2026
+Epoch 52: hit_rate = 0.8684
+New best hit rate: 0.8684, saving model to models/lstm_model.keras
+Epoch 53/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.5951 - loss: 157.9965 - val_hit_rate: 2.5376 - val_loss: 234.2504
+Epoch 53: hit_rate = 0.6966
+Epoch 54/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.5685 - loss: 188.1381 - val_hit_rate: 2.6484 - val_loss: 153.3241
+Epoch 54: hit_rate = 0.7896
+Epoch 55/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.5849 - loss: 148.1186 - val_hit_rate: 2.7185 - val_loss: 123.1796
+Epoch 55: hit_rate = 0.8620
+Epoch 56/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.6095 - loss: 137.3510 - val_hit_rate: 2.6673 - val_loss: 141.8182
+Epoch 56: hit_rate = 0.8101
+Epoch 57/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.5900 - loss: 164.3614 - val_hit_rate: 2.7085 - val_loss: 113.3522
+Epoch 57: hit_rate = 0.8659
+Epoch 58/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.6159 - loss: 137.3216 - val_hit_rate: 2.6721 - val_loss: 134.9298
+Epoch 58: hit_rate = 0.8213
+Epoch 59/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.5891 - loss: 151.0219 - val_hit_rate: 2.6857 - val_loss: 130.8793
+Epoch 59: hit_rate = 0.8276
+Epoch 60/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.5836 - loss: 173.3803 - val_hit_rate: 2.6945 - val_loss: 117.3447
+Epoch 60: hit_rate = 0.8517
+Epoch 61/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.6185 - loss: 131.6638 - val_hit_rate: 2.5714 - val_loss: 172.1397
+Epoch 61: hit_rate = 0.7301
+Epoch 62/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.6168 - loss: 142.8065 - val_hit_rate: 2.6818 - val_loss: 128.6557
+Epoch 62: hit_rate = 0.8360
+Epoch 63/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.5981 - loss: 147.0465 - val_hit_rate: 2.5781 - val_loss: 149.9232
+Epoch 63: hit_rate = 0.7745
+Epoch 64/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.6099 - loss: 134.9872 - val_hit_rate: 2.6413 - val_loss: 147.1048
+Epoch 64: hit_rate = 0.7868
+Epoch 65/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.5853 - loss: 154.8520 - val_hit_rate: 2.6917 - val_loss: 113.0331
+Epoch 65: hit_rate = 0.8437
+Epoch 66/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.6255 - loss: 129.7113 - val_hit_rate: 2.7276 - val_loss: 103.6064
+Epoch 66: hit_rate = 0.8800
+New best hit rate: 0.8800, saving model to models/lstm_model.keras
+Epoch 67/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.6044 - loss: 144.4129 - val_hit_rate: 2.7450 - val_loss: 98.3464
+Epoch 67: hit_rate = 0.8987
+New best hit rate: 0.8987, saving model to models/lstm_model.keras
+Epoch 68/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.6170 - loss: 128.5446 - val_hit_rate: 2.6897 - val_loss: 110.8138
+Epoch 68: hit_rate = 0.8659
+Epoch 69/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.6109 - loss: 131.8612 - val_hit_rate: 2.6226 - val_loss: 142.7990
+Epoch 69: hit_rate = 0.7869
+Epoch 70/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.5910 - loss: 144.3917 - val_hit_rate: 2.6917 - val_loss: 124.3987
+Epoch 70: hit_rate = 0.8392
+Epoch 71/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.6107 - loss: 143.7726 - val_hit_rate: 2.7085 - val_loss: 113.7282
+Epoch 71: hit_rate = 0.8622
+Epoch 72/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.6040 - loss: 137.5754 - val_hit_rate: 2.7280 - val_loss: 101.3177
+Epoch 72: hit_rate = 0.8898
+Epoch 73/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.6163 - loss: 130.1061 - val_hit_rate: 2.7372 - val_loss: 105.9327
+Epoch 73: hit_rate = 0.8901
+Epoch 74/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.6358 - loss: 123.4521 - val_hit_rate: 2.6929 - val_loss: 111.6048
+Epoch 74: hit_rate = 0.8637
+Epoch 75/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.6219 - loss: 126.6591 - val_hit_rate: 2.6120 - val_loss: 185.4356
+Epoch 75: hit_rate = 0.7667
+Epoch 76/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.5895 - loss: 146.2636 - val_hit_rate: 2.6935 - val_loss: 117.8624
+Epoch 76: hit_rate = 0.8402
+Epoch 77/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.5854 - loss: 174.4846 - val_hit_rate: 2.6562 - val_loss: 117.1990
+Epoch 77: hit_rate = 0.8203
+Epoch 78/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.6333 - loss: 119.1827 - val_hit_rate: 2.5938 - val_loss: 164.1694
+Epoch 78: hit_rate = 0.7461
+Epoch 79/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.6137 - loss: 131.3341 - val_hit_rate: 2.6709 - val_loss: 129.7588
+Epoch 79: hit_rate = 0.8380
+Epoch 80/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.6130 - loss: 136.7303 - val_hit_rate: 2.7128 - val_loss: 100.5546
+Epoch 80: hit_rate = 0.8819
+Epoch 81/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.6290 - loss: 122.6108 - val_hit_rate: 2.7417 - val_loss: 92.1737
+Epoch 81: hit_rate = 0.9016
+New best hit rate: 0.9016, saving model to models/lstm_model.keras
+Epoch 82/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.6211 - loss: 124.3522 - val_hit_rate: 2.7407 - val_loss: 97.0184
+Epoch 82: hit_rate = 0.8914
+Epoch 83/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.5970 - loss: 168.4434 - val_hit_rate: 2.7350 - val_loss: 94.8159
+Epoch 83: hit_rate = 0.8988
+Epoch 84/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.6408 - loss: 112.6998 - val_hit_rate: 2.7338 - val_loss: 90.1250
+Epoch 84: hit_rate = 0.9051
+New best hit rate: 0.9051, saving model to models/lstm_model.keras
+Epoch 85/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.6221 - loss: 122.5178 - val_hit_rate: 2.6992 - val_loss: 107.0299
+Epoch 85: hit_rate = 0.8556
+Epoch 86/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.6247 - loss: 126.3777 - val_hit_rate: 2.7468 - val_loss: 92.0835
+Epoch 86: hit_rate = 0.9068
+New best hit rate: 0.9068, saving model to models/lstm_model.keras
+Epoch 87/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.6147 - loss: 141.9050 - val_hit_rate: 2.7294 - val_loss: 101.6856
+Epoch 87: hit_rate = 0.8759
+Epoch 88/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.6298 - loss: 122.3364 - val_hit_rate: 2.7213 - val_loss: 98.5130
+Epoch 88: hit_rate = 0.9007
+Epoch 89/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.6150 - loss: 132.3081 - val_hit_rate: 2.7326 - val_loss: 94.5634
+Epoch 89: hit_rate = 0.9013
+Epoch 90/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.6422 - loss: 116.8604 - val_hit_rate: 2.7326 - val_loss: 92.6311
+Epoch 90: hit_rate = 0.8988
+Epoch 91/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.6376 - loss: 115.4320 - val_hit_rate: 2.7171 - val_loss: 98.8055
+Epoch 91: hit_rate = 0.8863
+Epoch 92/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.6332 - loss: 117.9381 - val_hit_rate: 2.6818 - val_loss: 106.3917
+Epoch 92: hit_rate = 0.8737
+Epoch 93/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.6178 - loss: 121.4193 - val_hit_rate: 2.7425 - val_loss: 95.2652
+Epoch 93: hit_rate = 0.9095
+New best hit rate: 0.9095, saving model to models/lstm_model.keras
+Epoch 94/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.6305 - loss: 123.2236 - val_hit_rate: 2.7419 - val_loss: 95.8588
+Epoch 94: hit_rate = 0.9064
+Epoch 95/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.6325 - loss: 116.0663 - val_hit_rate: 2.7365 - val_loss: 90.0477
+Epoch 95: hit_rate = 0.9017
+Epoch 96/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.6359 - loss: 114.1991 - val_hit_rate: 2.7589 - val_loss: 88.6725
+Epoch 96: hit_rate = 0.9181
+New best hit rate: 0.9181, saving model to models/lstm_model.keras
+Epoch 97/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.6322 - loss: 131.1925 - val_hit_rate: 2.7167 - val_loss: 100.6069
+Epoch 97: hit_rate = 0.8780
+Epoch 98/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.6360 - loss: 120.1473 - val_hit_rate: 2.7188 - val_loss: 91.4724
+Epoch 98: hit_rate = 0.8978
+Epoch 99/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.6175 - loss: 124.9362 - val_hit_rate: 2.7160 - val_loss: 93.4506
+Epoch 99: hit_rate = 0.8939
+Epoch 100/100
+1982/1982 ━━━━━━━━━━━━━━━━━━━━ 10s 5ms/step - hit_rate: 2.6284 - loss: 118.5110 - val_hit_rate: 2.7245 - val_loss: 98.3878
+Epoch 100: hit_rate = 0.8870
+LSTM model training complete in 1091.37 seconds
+Best hit rate achieved: 0.9181
+
+Training Summary:
+Date: 2025-04-29 10:49:15
+User: gauravvjhaa
+
+Model Performance:
+  SimpleFF:
+    - Training time: 479.64 seconds
+    - Best hit rate: 0.8353
+  DeepFF:
+    - Training time: 535.50 seconds
+    - Best hit rate: 0.7963
+  CNN:
+    - Training time: 1684.99 seconds
+    - Best hit rate: 0.1716
+  LSTM:
+    - Training time: 1091.37 seconds
+    - Best hit rate: 0.9181
